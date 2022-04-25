@@ -39,3 +39,30 @@ img {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+section {
+  background-color: var(--black);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+section img {
+  border-radius: 20rem;
+  max-width: 25%;
+}
+.online {
+  background-color: var(--light-blue);
+}
+
+section h1 {
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+section p {
+  color: var(--white);
+  font-size: 2rem;
+}
